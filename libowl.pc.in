@@ -1,0 +1,20 @@
+#
+# Copyright (C) 2020 Simon Batardiere - All rigths reserved.
+#
+# This file is part of the libowl package.
+# This code is licensed under LGPL-v2.1.
+# See LICENSE file, which is part of the libowl package, for more details.
+#
+
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+includedir=@includedir@
+libdir=@libdir@
+
+Name: owl
+Description: The libowl is a C library for communicating with an Ethereum client
+URL: https://github.com/simon-batardiere/libowl
+Version: @VERSION@
+Cflags:
+Libs: -L${libdir} -lowl
+
