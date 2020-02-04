@@ -3,7 +3,7 @@ The libowl is a C library for communicating with an Ethereum client.
 
 ## Compilation
 ```bash
-autoreconf --install
+./autogen.sh
 ./configure
 make
 make install
