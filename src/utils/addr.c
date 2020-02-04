@@ -7,10 +7,24 @@
 */
 
 #include <libowl/addr.h>
-#include <stdio.h>
 
-void owl_addr_dummy(void)
+const char *owl_addr_btos(const struct owl_addr *src, char *dst, size_t size)
 {
-	printf("Hello from libowl!\n");
+	return NULL;
+}
+
+int owl_addr_stob(const char *src, struct owl_addr *dst)
+{
+	return 0;
+}
+
+int owl_addr_isvalid(const char *addr)
+{
+	return 0;
+}
+
+int owl_addr_convert_eip55(const char *src, char *dst, size_t size)
+{
+	return 0;
 }
 

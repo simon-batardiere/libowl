@@ -10,7 +10,6 @@
 
 int main(int argc, char **argv)
 {
-	owl_addr_dummy();
 	return 0;
 }
 

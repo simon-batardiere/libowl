@@ -26,7 +26,8 @@ AC_PROG_CPP
 
 # Checks for header files.
 AC_HEADER_STDC
-AC_CHECK_HEADERS([stdio.h])
+AC_CHECK_HEADERS([stdint.h])
+AC_CHECK_HEADERS([stddef.h])
 
 # Checks for typedefs, structures, and compiler characteristics.
 
